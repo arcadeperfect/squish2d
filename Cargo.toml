@@ -3,7 +3,10 @@ name = "squish2d"
 version = "0.1.0"
 edition = "2021"
 description = "Robust 2D soft-body blobs: XPBD ring solver (small steps) with subsume/containment mechanics"
-license = "MIT OR Apache-2.0"
+license = "0BSD"
+repository = "https://github.com/arcadeperfect/squish2d"
+keywords = ["physics", "softbody", "2d", "xpbd", "gamedev"]
+categories = ["game-development", "simulation"]
 
 [dependencies]
 glam = "0.29"
