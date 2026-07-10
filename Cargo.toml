@@ -1,0 +1,19 @@
+[package]
+name = "squish2d"
+version = "0.1.0"
+edition = "2021"
+description = "Robust 2D soft-body blobs: XPBD ring solver (small steps) with subsume/containment mechanics"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+glam = "0.29"
+
+[dev-dependencies]
+macroquad = "0.4"
+
+# keep the demo interactive even in debug builds
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2
