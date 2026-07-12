@@ -2,7 +2,7 @@
 
 **full disclosure**
 
-This was made with ai. Use it if you want. Hate it if you want. Hate use it if you want. 
+This was made with ai. Do with that as you will. 
 
 
 2D soft-body blobs. **XPBD** particle-ring solver using the **small steps** 
